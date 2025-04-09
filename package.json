@@ -1,0 +1,12 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "tailwindcss -i ./src/input.css -o ./static/css/styles.css --minify"
+    },
+    "dependencies": {
+      "tailwindcss": "^3.0.0",
+      "postcss": "^8.0.0",
+      "autoprefixer": "^10.0.0"
+    }
+  }
