@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello from Flask on DigitalOcean App Platform 🎉'
+    return 'Hello from Flask on DigitalOcean App Platform 🎉 '
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))
